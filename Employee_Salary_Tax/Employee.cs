@@ -11,7 +11,7 @@ namespace Employee_Salary_Tax
         private static int totalEmployeeCount = 0; 
         private const double PT = 200; 
 
-        public int Id { get; private set; }
+        public int Id { get;  set; }
         public string Name { get; set; }
         public double Salary { get; set; }
 
